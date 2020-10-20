@@ -1,0 +1,31 @@
+{
+  "name": "expressjs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "SIDHARTH KANDASWAMY",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run serve",
+    "test": "jest --forceExit --coverage --verbose",
+    "serve": "node dist/app.js",
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.14",
+    "@types/request": "^2.48.3",
+    "@types/request-promise": "^4.1.44",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
